@@ -10,6 +10,7 @@
 		65528C2F23524B5D0093E935 /* WeChatHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65528C2523524B5C0093E935 /* WeChatHelper.framework */; };
 		65528C3423524B5D0093E935 /* WeChatHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65528C3323524B5D0093E935 /* WeChatHelperTests.m */; };
 		65528C3623524B5D0093E935 /* WeChatHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 65528C2823524B5C0093E935 /* WeChatHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65528C40235255B90093E935 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 65528C3F235255B90093E935 /* main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		65528C2E23524B5D0093E935 /* WeChatHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65528C3323524B5D0093E935 /* WeChatHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatHelperTests.m; sourceTree = "<group>"; };
 		65528C3523524B5D0093E935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65528C3F235255B90093E935 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				65528C2823524B5C0093E935 /* WeChatHelper.h */,
 				65528C2923524B5D0093E935 /* Info.plist */,
+				65528C3F235255B90093E935 /* main.mm */,
 			);
 			path = WeChatHelper;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65528C40235255B90093E935 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
