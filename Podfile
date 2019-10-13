@@ -6,6 +6,7 @@ target 'WeChatHelper' do
   # use_frameworks!
 
   # Pods for WeChatHelper
+  pod 'JRSwizzle'
 
   target 'WeChatHelperTests' do
     # Pods for testing

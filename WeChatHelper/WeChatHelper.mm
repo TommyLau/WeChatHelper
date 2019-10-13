@@ -7,9 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+#import <JRSwizzle/JRSwizzle.h>
+#import "WeChat+hook.h"
 
 __attribute__((constructor))
 static void  initialize(void) {
     // Initialize here
     NSLog(@"========== WeChatHelper ==========\n");
+    
+    [NSObject hookWeChat];
 }

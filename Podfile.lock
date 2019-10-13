@@ -1,0 +1,16 @@
+PODS:
+  - JRSwizzle (1.0)
+
+DEPENDENCIES:
+  - JRSwizzle
+
+SPEC REPOS:
+  trunk:
+    - JRSwizzle
+
+SPEC CHECKSUMS:
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+
+PODFILE CHECKSUM: 441d7a70f66afe5726cdf01997876397c2a6fb1f
+
+COCOAPODS: 1.8.3
